@@ -45,8 +45,8 @@ const defaultOptions = {
 
 compile({
     ...defaultOptions,
-    entryPoints: ['./resources/js/index.js'],
-    outfile: './resources/dist/skeleton.js',
+    entryPoints: ['./resources/js/filament-military-time.js'],
+    outfile: './resources/dist/filament-military-time.js',
 }).then(() => {
-    console.log(`Build completed for skeleton.js`)
+    console.log(`Build completed for filament-military-time.js`)
 })
