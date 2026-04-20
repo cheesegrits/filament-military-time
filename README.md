@@ -7,7 +7,7 @@
 
 
 
-A simple military (24 hour) time form component for Filament v4 and v5, that does not rely on the browser or system time locale.
+A simple military (24 hour) time form component for Filament v4 and v5, that does not rely on the browser or system time locale.  Text input only, no graphical selector.
 
 ## Installation
 
