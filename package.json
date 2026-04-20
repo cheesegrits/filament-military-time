@@ -3,10 +3,13 @@
     "type": "module",
     "scripts": {
         "dev": "node bin/build.js --dev",
-        "build": "node bin/build.js"
+        "build": "node bin/build.js",
+        "test": "vitest run",
+        "test:watch": "vitest"
     },
     "devDependencies": {
         "esbuild": "^0.25.5",
-        "prettier": "^3.5.3"
+        "prettier": "^3.5.3",
+        "vitest": "^4.1.4"
     }
 }

@@ -17,8 +17,8 @@
                 x-load
                 x-load-src="{{ \Filament\Support\Facades\FilamentAsset::getAlpineComponentSrc('filament-military-time', 'cheesegrits/filament-military-time') }}"
                 x-data="militaryTimeInput({
-                state: $wire.{{ $applyStateBindingModifiers("\$entangle('{$statePath}')") }},
-            })"
+                    state: $wire.{{ $applyStateBindingModifiers("\$entangle('{$statePath}')") }},
+                })"
                 wire:ignore
                 class="flex-1"
         >
