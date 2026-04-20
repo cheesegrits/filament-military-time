@@ -4,6 +4,7 @@ namespace Cheesegrits\FilamentMilitaryTime\Tests;
 
 use BladeUI\Heroicons\BladeHeroiconsServiceProvider;
 use BladeUI\Icons\BladeIconsServiceProvider;
+use Cheesegrits\FilamentMilitaryTime\MilitaryTimeServiceProvider;
 use Filament\Actions\ActionsServiceProvider;
 use Filament\Forms\FormsServiceProvider;
 use Filament\Infolists\InfolistsServiceProvider;
@@ -16,7 +17,6 @@ use Livewire\LivewireServiceProvider;
 use Orchestra\Testbench\Concerns\WithWorkbench;
 use Orchestra\Testbench\TestCase as Orchestra;
 use RyanChandler\BladeCaptureDirective\BladeCaptureDirectiveServiceProvider;
-use Cheesegrits\FilamentMilitaryTime\MilitaryTimeServiceProvider;
 
 class TestCase extends Orchestra
 {
